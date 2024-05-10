@@ -6,7 +6,7 @@ const server = http.createServer((req, res) =>{
     
    console.log('efetuando pedido'); 
   //declarando um header
-  res.setHeader('content-type', 'text/html')
+  res.setHeader('content-type', 'text/html');
    res.write("<h1>o que você deseja</h1>");
    res.write("<h2>Dormir</h2>")
    res.write("<h2>Cafézinho</h2>")
